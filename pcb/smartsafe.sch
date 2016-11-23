@@ -31,6 +31,8 @@ LIBS:valves
 LIBS:dip32socket
 LIBS:dip24socket
 LIBS:mini-lock
+LIBS:74lvc2g34
+LIBS:bss138
 LIBS:smartsafe-cache
 EELAYER 25 0
 EELAYER END
@@ -119,4 +121,46 @@ Wire Notes Line
 	3450 2300 950  2300
 Text Notes 1550 2250 0    98   ~ 20
 Molex Mini-Lock
+$Comp
+L 74LVC2G34 U?
+U 1 1 5835CAD8
+P 2050 6250
+F 0 "U?" H 2050 6250 60  0000 C CNN
+F 1 "74LVC2G34" H 2050 6150 60  0000 C CNN
+F 2 "SOT363:SOT363" H 2050 6250 60  0001 C CNN
+F 3 "" H 2050 6250 60  0001 C CNN
+	1    2050 6250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1250 5300 1250 6700
+Wire Notes Line
+	1250 6700 2850 6700
+Wire Notes Line
+	2850 6700 2850 5300
+Wire Notes Line
+	2850 5300 1250 5300
+Text Notes 1250 5250 0    79   ~ 16
+Buffer and Logic Converter\nto be used for MISO from 3.3V to 5V\nor from MOSI 5V to 3V
+$Comp
+L BSS138 Q?
+U 1 1 5835D248
+P 4400 6050
+F 0 "Q?" H 4600 6125 50  0000 L CNN
+F 1 "BSS138" H 4600 6050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4600 5975 50  0001 L CIN
+F 3 "" H 4400 6050 50  0000 L CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3700 5500 3700 6700
+Wire Notes Line
+	3700 6700 5200 6700
+Wire Notes Line
+	5200 6700 5200 5500
+Wire Notes Line
+	5200 5500 3700 5500
+Text Notes 3750 5400 0    60   ~ 0
+Level Converting Transistor\nUsed to go from 5->3V or \n3V -> 5V
 $EndSCHEMATC

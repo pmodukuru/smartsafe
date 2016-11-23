@@ -1,4 +1,4 @@
-update=Wed 23 Nov 2016 10:25:50 AM EST
+update=Wed 23 Nov 2016 12:25:33 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=dip32socket
 LibName31=dip24socket
 LibName32=mini-lock
+LibName33=74lvc2g34
