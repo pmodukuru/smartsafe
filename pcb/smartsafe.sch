@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -169,9 +169,29 @@ F0 "Sheet5835D701" 60
 F1 "bluetooth.sch" 60
 $EndSheet
 $Sheet
-S 8450 4700 1050 800 
+S 7850 3700 950  2500
 U 5835D791
 F0 "Sheet5835D790" 60
 F1 "rfid.sch" 60
+F2 "VCC" I R 8800 3850 118
+F3 "GND" I R 8800 4100 118
+F4 "RST" I R 8800 4350 118
+F5 "MISO" O R 8800 4600 118
+F6 "MOSI" I R 8800 4900 118
+F7 "SCK" I R 8800 5250 118
+F8 "IRQ" I R 8800 5600 118
+F9 "NSS" I R 8800 5950 118
 $EndSheet
+Text Notes 7500 3500 0    118  ~ 24
+Note:\nPerform Level shifting inside\nthe heirarchal label\n(right click, enter sheet)
+Text Notes 600  450  0    157  ~ 31
+DO NOT COMMIT CHANGES TO THE ROOT FILE\nONLY COMMIT CHANGES FOR HEIRARCHAL FILES\nTO AVOID MERGE CONFLICTS
+Wire Notes Line
+	500  -650 500  700 
+Wire Notes Line
+	500  700  6600 700 
+Wire Notes Line
+	6600 700  6600 -650
+Wire Notes Line
+	6600 -650 500  -650
 $EndSCHEMATC

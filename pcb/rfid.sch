@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -47,4 +47,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2250 3050 0    118  Input ~ 24
+VCC
+Text HLabel 2250 3500 0    118  Input ~ 24
+GND
+Text HLabel 2250 3950 0    118  Input ~ 24
+RST
+Text HLabel 2250 4500 0    118  Output ~ 24
+MISO
+Text HLabel 2250 4950 0    118  Input ~ 24
+MOSI
+Text HLabel 2200 5400 0    118  Input ~ 24
+SCK
+Text HLabel 2200 5900 0    118  Input ~ 24
+IRQ
+Text HLabel 2150 6350 0    118  Input ~ 24
+NSS
+Text Notes 1950 1850 0    118  ~ 24
+In this heirerarchal schematic the following needs to be done\nlevel shifting (where required... some might not need it see the bluetooth module schematic\nbuffering if necessary\n
 $EndSCHEMATC
