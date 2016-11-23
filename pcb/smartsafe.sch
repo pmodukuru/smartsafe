@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:dip32socket
 LIBS:dip24socket
+LIBS:mini-lock
 LIBS:smartsafe-cache
 EELAYER 25 0
 EELAYER END
@@ -67,4 +68,25 @@ F 3 "" H 8600 4950 60  0001 C CNN
 	1    8600 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mini-Lock-8_53426-0810 C?
+U 1 1 5835B601
+P 3300 4000
+F 0 "C?" H 3300 4000 60  0000 C CNN
+F 1 "Mini-Lock-8_53426-0810" H 3400 3900 60  0000 C CNN
+F 2 "" H 3300 4000 60  0001 C CNN
+F 3 "" H 3300 4000 60  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 2850 1400 0    118  ~ 24
+Reccomended PCB thickness as per Mini-Lock connector:\n1.60mm
+Wire Notes Line
+	2700 950  2700 1550
+Wire Notes Line
+	2700 1550 8200 1550
+Wire Notes Line
+	8200 1550 8200 950 
+Wire Notes Line
+	2700 950  8200 950 
 $EndSCHEMATC
