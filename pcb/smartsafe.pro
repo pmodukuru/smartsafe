@@ -1,4 +1,4 @@
-update=Wed 23 Nov 2016 08:24:46 AM EST
+update=Wed 23 Nov 2016 09:20:36 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=dip32socket
+LibName31=dip24socket
