@@ -32,7 +32,6 @@ LIBS:dip32socket
 LIBS:dip24socket
 LIBS:mini-lock
 LIBS:74lvc2g34
-LIBS:bss138
 LIBS:smartsafe-cache
 EELAYER 25 0
 EELAYER END
