@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -162,4 +162,16 @@ Wire Notes Line
 	5200 5500 3700 5500
 Text Notes 3750 5400 0    60   ~ 0
 Level Converting Transistor\nUsed to go from 5->3V or \n3V -> 5V
+$Sheet
+S 10000 3650 1050 700 
+U 5835D702
+F0 "Sheet5835D701" 60
+F1 "bluetooth.sch" 60
+$EndSheet
+$Sheet
+S 8450 4700 1050 800 
+U 5835D791
+F0 "Sheet5835D790" 60
+F1 "rfid.sch" 60
+$EndSheet
 $EndSCHEMATC
