@@ -32,12 +32,12 @@ LIBS:dip32socket
 LIBS:dip24socket
 LIBS:mini-lock
 LIBS:74lvc2g34
-LIBS:smartsafe-cache
+LIBS:ucc283−5
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -339,4 +339,10 @@ Wire Wire Line
 	9100 3250 9400 3250
 Wire Wire Line
 	9250 2150 9400 2150
+$Sheet
+S 8450 5000 1850 1100
+U 58371E59
+F0 "Sheet58371E58" 60
+F1 "power.sch" 60
+$EndSheet
 $EndSCHEMATC

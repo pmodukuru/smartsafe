@@ -32,12 +32,12 @@ LIBS:dip32socket
 LIBS:dip24socket
 LIBS:mini-lock
 LIBS:74lvc2g34
-LIBS:smartsafe-cache
+LIBS:ucc283−5
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
